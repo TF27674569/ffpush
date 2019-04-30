@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/4/30 19:39:41。
+     1>项目“D:\workspace\visual_studio\FFpush\FFpush.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt push.cpp
+         push.cpp
+     1>d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\workspace\visual_studio\ffpush\push.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workspace\visual_studio\ffpush\push.cpp(76): warning C4996: 'AVStream::codec': 被声明为已否决
+                 d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+     1>d:\workspace\visual_studio\ffpush\push.cpp(92): warning C4996: 'AVStream::codec': 被声明为已否决
+                 d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+     1>d:\workspace\visual_studio\ffpush\push.cpp(94): warning C4996: 'AVStream::codec': 被声明为已否决
+                 d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+                 d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+     1>d:\workspace\visual_studio\ffpush\push.cpp(100): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\workspace\visual_studio\ffpush\push.cpp(101): warning C4996: 'AVStream::codec': 被声明为已否决
+                 d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavformat\avformat.h(893) : 参见“AVStream::codec”的声明
+     1>d:\workspace\visual_studio\ffpush\push.cpp(161): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>d:\workspace\visual_studio\ffpush\push.cpp(164): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+     1>d:\workspace\visual_studio\ffpush\push.cpp(166): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+     1>d:\workspace\visual_studio\ffpush\push.cpp(210): warning C4996: 'av_free_packet': 被声明为已否决
+                 d:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\include\libavcodec\avcodec.h(4558) : 参见“av_free_packet”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\visual_studio\FFpush\Debug\FFpush.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\workspace\visual_studio\ffmpeg-3.3.3-win32-dev\ffmpeg-3.3.3-win32-dev\lib" avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspace\visual_studio\FFpush\Debug\FFpush.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace\visual_studio\FFpush\Debug\FFpush.lib" /MACHINE:X86 Debug\push.obj
+         FFpush.vcxproj -> D:\workspace\visual_studio\FFpush\Debug\FFpush.exe
+     1>已完成生成项目“D:\workspace\visual_studio\FFpush\FFpush.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.55
